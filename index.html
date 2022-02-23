@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+    <div id="jumbotron">
+        <h1 id="mainHeader">Change Calculator</h1>
+    </div>
+    
+    <div id="welcome">
+        <h1><em>Welcome</em></h1>
+    </div>
+    
+<div>
+<label>Enter amount of change due:</label>
+<input type="text" id="cents" />
+  
+<input type="button" value="Calculate" name="calculate" id="calculate" onclick=processEntries() />
+    <br><br>
+
+    <label>Quarters:</label>
+    <input class="change" type="text" id="quarters" disabled><br>				
+    <label>Dimes:</label>
+    <input class="change" type="text" id="dimes" disabled><br>
+	
+    <label>Nickels:</label>
+    <input class="change" type="text" id="nickels" disabled><br>
+
+    <label>Pennies:</label>
+    <input class="change" type="text" id="pennies" disabled>
+    <br>  
+
+    <button class="button button2" onclick="clearResults()" id="clearBtn" >Clear</button>
+  </div>
+    <br>
+ 
+</main>
+    <script src="script.js"></script>
+</body>
+</html>

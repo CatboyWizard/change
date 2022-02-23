@@ -1,0 +1,71 @@
+#jumbotron{
+    display: flex;
+    background-color: none;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    text-align: center;
+    background-image: url();
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    
+}
+
+#jumbotron h1{
+    color: navy;
+    text-align: center;
+}
+
+#welcome h1{
+    color: navy;
+}
+
+#header3{
+    color: navy;
+    text-align: center;
+}
+
+h1{
+    font-family: defualt;
+}
+
+body{
+    background-image: url(https://media.discordapp.net/attachments/928388003867541534/936317896181837894/rtKejim.gif?width=1190&height=676);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#welcome{
+  display: inline-block; 
+  /* float: leftss; */
+   margin-left: 30vw;
+   margin-right: 50vw;
+
+}
+
+.button {
+    border: none;
+    color: navy;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+  }
+  
+  
+  .button1, .button2{background-color:transparent;}
+  .button1, .button2{  
+      width: 100%;
+   }
+
+   #box{
+    height: 580px;
+    width: 900px;
+    margin-left: 200px;
+    margin-top: 50px;
+   }
